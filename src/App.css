@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 28%;
+  margin-top: 100px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont {
+  width: 800px;
+  height: 600px;
+
+  border: 3px solid black;
+}
+
+.btns {
+  width: 150px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 25px;
+}
+
+.menu {
+  flex-direction: row;
+  justify-content: space-around;
+  width: 800px;
+  margin-left: 25%;
+}
